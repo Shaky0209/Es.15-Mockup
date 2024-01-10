@@ -1,0 +1,176 @@
+.logo{
+    background: url(img/logo.svg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.bell{
+    background-color: rgb(223, 223, 223);
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.user{
+    background: url(img/avatar-1.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.nav-el-dim{
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-spot{
+    background-color: rgb(126, 28, 255);
+}
+
+.img-spot{
+    height: 400px;
+    background-image: url(img/hero-img.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.w-spot-color{
+    color: white;
+}
+
+.btn-lft{
+    background-color: rgb(1, 226, 151);
+    font-weight: bold;
+}
+
+.btn-rgt{
+    font-weight: bold;
+}
+
+.btn-dim{
+    height: 50px;
+    width: 180px;
+    border-radius: 8px;
+}
+
+.spot-paragraph{
+    width: 100px;
+}
+
+div.row.top-spot > div > div > p{
+    font-size: 18pt;
+    font-weight: 100;
+    color: rgb(157, 157, 157);
+}
+
+.icon-hero{
+    height: 45px;
+    width: 45px;
+    font-size: 11pt;
+    color: rgb(165, 108, 42);
+    border-radius: 50%;
+    background-color: rgb(255, 226, 188);
+}
+
+.p-hero{
+    font-size: 10pt;
+    color: rgb(156, 155, 155);
+}
+
+.card-container{
+    background-color: rgb(238, 238, 238);
+}
+
+.card-body{
+    height: 300px;
+}
+
+.purple{
+    color: rgb(117, 0, 250);
+}
+
+.gray{
+    color: rgb(140, 139, 139);
+}
+
+.star-color{
+    color: rgb(212, 187, 0);
+
+}
+.fa-star, .fa-star-half-stroke{
+    font-size: 10pt;
+}
+
+.l-gray{
+    color: rgb(213, 213, 213);
+}
+
+.price{
+    font-weight: bold;
+}
+
+.ko-price{
+    text-decoration: line-through;
+}
+
+.img-card-footer-simmons{
+    background-image: url(img/avatar-5.jpg);
+    background-size: cover;
+}
+
+.img-card-footer-wilson{
+    background-image: url(img/avatar-1.jpg);
+    background-size: cover;
+}
+
+.img-card-footer-ray{
+    background-image: url(img/avatar-3.jpg);
+    background-size: cover;
+}
+
+.img-card-footer-rikhan{
+    background-image: url(img/avatar-7.jpg);
+    background-size: cover;
+}
+
+.img-card-footer-miston{
+    background-image: url(img/avatar-4.jpg);
+    background-size: cover;
+}
+
+
+.img-card-footer-noms{
+    background-image: url(img/avatar-2.jpg);
+    background-size: cover;
+}
+
+.img-card-footer-JWilson{
+    background-image: url(img/avatar-3.jpg);
+    background-size: cover;
+}
+
+.img-c-f-dim{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+footer{
+    background-color: rgb(238, 238, 238);
+}
+
+footer > div.container-fluid > div.row{
+    height: 250px;
+}
+
+footer > div > div > div > a{
+    color: black;
+}
+
+@media screen and (max-width: 767px){
+    .img-spot{
+        height: 560px;
+    }
+}
