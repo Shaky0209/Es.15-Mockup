@@ -81,6 +81,9 @@ div.row.top-spot > div > div > p{
 .card-container{
     background-color: rgb(238, 238, 238);
 }
+.card{
+    z-index: 100;
+}
 
 .card-body{
     height: 300px;
@@ -155,6 +158,11 @@ div.row.top-spot > div > div > p{
     width: 30px;
     border-radius: 50%;
     margin: 10px;
+}
+
+.animated{
+    scale: 1.1;
+    transition: scale .1s linear .1s;
 }
 
 footer{
